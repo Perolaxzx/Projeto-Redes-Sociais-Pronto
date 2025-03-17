@@ -12,6 +12,16 @@ background: black url(imagens/tela-home.jpg )no-repeat top center;
 background-size: cover;
 }
 
+section#telefone{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 627px;
+    width: 311px;
+    background: url(/imagens/frame-iphone.png ) no-repeat;
+    
+}
 
 
 *{
@@ -40,15 +50,6 @@ main{
     
 }
 
-section#telefone{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    height: 627px;
-    width: 311px;
-    background-color: blue no-repeat; 
-}
 
 iframe#tela{
     position: relative;
